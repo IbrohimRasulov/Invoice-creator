@@ -1,0 +1,27 @@
+{
+  "name": "invoice-creator",
+  "version": "1.0.0",
+  "description": "![](https://img.shields.io/badge/Microverse-blueviolet)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IbrohimRasulov/Invoice-creator.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IbrohimRasulov/Invoice-creator/issues"
+  },
+  "homepage": "https://github.com/IbrohimRasulov/Invoice-creator#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-sass": "^5.1.0",
+    "sass": "^1.51.0"
+  },
+  "dependencies": {
+    "chokidar": "^3.5.3"
+  }
+}

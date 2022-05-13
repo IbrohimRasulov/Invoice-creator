@@ -1,5 +1,8 @@
+@import 'sass/reset';
+@import 'sass/variables';
+
 h1 {
   a {
-    color: red;
+    color: $primary-color;
   }
 }

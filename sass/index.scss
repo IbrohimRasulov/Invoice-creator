@@ -1,8 +1,18 @@
 @import 'sass/reset';
 @import 'sass/variables';
 
+// @mixin text {
+// some css rules here
+// }
+
+// @include text();
+
 h1 {
   a {
-    color: $primary-color;
+    color: $text-btn;
+
+    &:hover {
+      color: $text-secondary;
+    }
   }
 }

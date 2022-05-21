@@ -12,8 +12,8 @@
  <body>
    <div id="container">
      <header>
-      <h1>Invoice creator</h1>
-      <p>Thanks for choosing GoodCorp, LLC!</p>
+       <h1>Invoice creator</h1>
+       <p>Thanks for choosing GoodCorp, LLC!</p>
      </header>
      <main>
        <div id="services">
@@ -22,46 +22,46 @@
          <button id="pulling">Pull Weeds: $30</button>
        </div>
        <div id="tasks">
-         <table>
-           <thead>
-             <tr>
-               <th>TASK</th>
-               <th>TOTAL</th>
-             </tr>
-           </thead>
-           <tbody>
-             <tr>
-               <td>Wash Car</td>
-               <td><img src="assets/icon-delete.svg" alt="delete-btn"></td>
-               <td>$10</td>
-             </tr>
-             <tr>
-               <td>Mow Lawn</td>
-               <td><img src="assets/icon-delete.svg" alt="delete-btn"></td>
-               <td>$20</td>
-             </tr>
-             <tr>
-               <td>Pull Weeds</td>
-               <td><img src="assets/icon-delete.svg" alt="delete-btn"></td>
-               <td>$30</td>
-             </tr>
-           </tbody>
-         </table>
+         <ul>
+           <li>
+             <h4>TASK</h4>
+             <h4>TOTAL</h4>
+           </li>
 
-         <table>
-           <thead>
-             <tr>
-               <th>NOTES</th>
-               <th>TOTAL AMOUNT</th>
-             </tr>
-           </thead>
-           <tbody>
-             <tr>
-               <td>We accept cash, credit card, or PayPal</td>
-               <td>$60</td>
-             </tr>
-           </tbody>
-         </table>
+           <li>
+             <p>Wash Car</p>
+             <img src="assets/icon-delete.svg" alt="delete-btn">
+             <p><span>$</span>10</p>
+           </li>
+
+           <li>
+             <p>Mow Lawn</p>
+             <img src="assets/icon-delete.svg" alt="delete-btn">
+             <p><span>$</span>20</p>
+           </li>
+
+           <li>
+             <p>Pull Weeds</p>
+             <img src="assets/icon-delete.svg" alt="delete-btn" class="hidden">
+             <p><span>$</span>30</p>
+           </li>
+         </ul>
+       </div>
+
+       <div id="total">
+         <ul>
+           <li>
+             <h4>NOTES</h4>
+             <h4>TOTAL AMOUNT</h4>
+           </li>
+
+           <li>
+             <p>We accept cash, credit card, or PayPal</p>
+             <p>$60</p>
+           </li>
+         </ul>
+
+         <button><img src="assets/icon-envelope.svg" alt="icon-envelope">Send invoice</button>
        </div>
      </main>
    </div>

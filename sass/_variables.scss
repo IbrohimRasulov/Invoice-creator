@@ -1,1 +1,20 @@
-$primary-color: #103180;
+/* FONT */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+$poppins: 'Poppins', sans-serif;
+
+/* FONT COLOR */
+$text-white: #FFFFFF;
+$text-primary: #F5F5F5;
+$text-secondary: #bdbcc1;
+$horizontal-line: #C3C6DB;
+$text-btn: #4A4E74;
+
+/* THEME COLOR */
+$bg-main: #1F2937;
+$bg-header: #3A69D2;
+$bg-body: #1C1C1C;
+
+/* BUTTONS COLOR */
+$btn-task: #D1D4F4;
+$btn-submit: #3A69D2;
+$btn-submit-dark: #2155c5;

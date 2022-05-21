@@ -4,7 +4,7 @@
 
 > Description the project.
 
-![App preview](./app_screenshot.png)
+![App preview](./assets/app_screenshot.png)
 
 ## Built With
 

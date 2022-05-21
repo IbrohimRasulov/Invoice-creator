@@ -2,6 +2,7 @@
   Josh's Custom CSS Reset
   https://www.joshwcomeau.com/css/custom-css-reset/
 */
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 *, *::before, *::after {
   box-sizing: border-box;
 }
@@ -36,6 +37,146 @@ p, h1, h2, h3, h4, h5, h6 {
   isolation: isolate;
 }
 
-h1 a {
-  color: #103180;
+/* FONT */
+/* FONT COLOR */
+/* THEME COLOR */
+/* BUTTONS COLOR */
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: #1C1C1C;
+}
+
+#container {
+  width: 550px;
+  height: 650px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+header {
+  background-color: #3A69D2;
+  color: #FFFFFF;
+  text-align: center;
+  padding: 50px;
+  user-select: none;
+}
+header h1 {
+  font-size: 44px;
+}
+header p {
+  font-size: 18px;
+}
+
+main {
+  background-color: #1F2937;
+  padding: 30px;
+}
+main #services {
+  display: flex;
+  justify-content: space-between;
+}
+main #services button {
+  font-size: 15px;
+  padding: 10px 15px;
+  border: 2px solid #1F2937;
+  border-radius: 8px;
+  color: #4A4E74;
+  background-color: #D1D4F4;
+  cursor: pointer;
+}
+main #services button:hover {
+  border: 2px solid white;
+}
+
+#tasks {
+  padding: 30px 0 15px 0;
+}
+#tasks ul {
+  list-style-type: none;
+  padding-left: 0;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #bdbcc1;
+}
+#tasks ul li:first-child {
+  padding-bottom: 10px;
+}
+#tasks ul li:first-child h4 {
+  color: #bdbcc1;
+  font-size: smaller;
+}
+#tasks ul li {
+  display: flex;
+  justify-content: space-between;
+}
+#tasks ul li p {
+  line-height: 40px;
+  color: #F5F5F5;
+  font-size: 20px;
+  font-weight: bold;
+}
+#tasks ul li p span {
+  color: #bdbcc1;
+  font-weight: lighter;
+  padding-right: 2px;
+}
+#tasks ul li img {
+  cursor: pointer;
+  padding: 5px;
+  margin: 0 15px;
+  display: none;
+}
+#tasks ul li:hover img {
+  display: inline-block;
+}
+
+#total ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+#total ul li {
+  display: flex;
+  justify-content: space-between;
+}
+#total ul li:first-child {
+  padding-bottom: 10px;
+}
+#total ul li:first-child h4 {
+  color: #bdbcc1;
+  font-size: smaller;
+}
+#total ul li:last-child p:first-child {
+  color: #F5F5F5;
+  font-size: small;
+}
+#total ul li:last-child p:last-child {
+  font-size: 40px;
+  line-height: 40px;
+  font-weight: bolder;
+  color: #F5F5F5;
+}
+#total button {
+  width: 100%;
+  background-color: #3A69D2;
+  cursor: pointer;
+  color: #FFFFFF;
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+  padding: 7px;
+  margin-top: 40px;
+  border: 1px solid #3A69D2;
+  border-radius: 7px;
+  justify-content: center;
+}
+#total button img {
+  display: inline-block;
+  padding-right: 10px;
+}
+#total button:hover {
+  background-color: #2155c5;
 }

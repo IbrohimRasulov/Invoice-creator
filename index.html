@@ -1,13 +1,53 @@
  <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Invoice Creator</title>
-  <link rel="stylesheet" href="css/index.css">
-</head>
-<body>
-  <h1><a href="#">Hello world!</a></h1>
-</body>
-</html>
+ <html lang="en">
+
+ <head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Invoice Creator</title>
+   <link rel="stylesheet" href="css/index.css">
+ </head>
+
+ <body>
+   <div id="container">
+     <header>
+     </header>
+     <main>
+       <div id="services">
+         <button id="washing">Wash Car: $10</button>
+         <button id="lawning">Mow Lawn: $20</button>
+         <button id="pulling">Pull Weeds: $30</button>
+       </div>
+       <div id="tasks">
+         <table>
+           <thead>
+             <tr>
+               <th>Task</th>
+               <th>Total</th>
+             </tr>
+           </thead>
+           <tbody>
+             <tr>
+               <td>Wash Car</td>
+               <td><img src="assets/icon-delete.svg" alt="delete-btn"></td>
+               <td>$10</td>
+             </tr>
+             <tr>
+               <td>Mow Lawn</td>
+               <td><img src="assets/icon-delete.svg" alt="delete-btn"></td>
+               <td>$20</td>
+             </tr>
+             <tr>
+               <td>Pull Weeds</td>
+               <td><img src="assets/icon-delete.svg" alt="delete-btn"></td>
+               <td>$30</td>
+             </tr>
+           </tbody>
+         </table>
+       </div>
+     </main>
+   </div>
+ </body>
+
+ </html>

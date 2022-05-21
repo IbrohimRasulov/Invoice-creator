@@ -45,3 +45,7 @@ h1 a {
 h1 a:hover {
   color: #D5D4D8;
 }
+
+td img:hover {
+  cursor: pointer;
+}

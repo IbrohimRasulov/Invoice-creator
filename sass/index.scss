@@ -16,3 +16,11 @@ h1 {
     }
   }
 }
+
+td {
+  img {
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}

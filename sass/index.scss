@@ -1,26 +1,66 @@
 @import 'sass/reset';
 @import 'sass/variables';
 
-// @mixin text {
-// some css rules here
-// }
+//! MIXINS
+@mixin center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
 
-// @include text();
+* {
+  font-family: $poppins;
+}
 
-h1 {
-  a {
-    color: $text-btn;
+body {
+  background-color: $bg-body;
+}
 
-    &:hover {
-      color: $text-secondary;
-    }
+#container {
+  width: 550px;
+  height: 650px;
+  @include center();
+}
+
+header {
+  background-color: $bg-header;
+  color: $text-white;
+  text-align: center;
+  padding: 50px;
+  user-select: none;
+
+  h1 {
+    font-size: 44px;
+  }
+
+  p {
+    font-size: 18px;
   }
 }
 
-td {
-  img {
-    &:hover {
+main {
+  background-color: $bg-main;
+  padding: 30px;
+
+  #services {
+    display: flex;
+    justify-content: space-between;
+
+    button {
+      font-size: 15px;
+      padding: 10px 15px;
+      border: 2px solid $bg-main;
+      border-radius: 8px;
+      color: $text-btn;
+      background-color: $btn-task;
       cursor: pointer;
+
+      &:hover {
+        border: 2px solid white;
+      }
     }
   }
+
+  
 }

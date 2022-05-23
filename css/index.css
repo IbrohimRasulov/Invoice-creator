@@ -127,9 +127,9 @@ main #services button:hover {
 #tasks ul li img {
   cursor: pointer;
   padding: 10px;
-  display: none;
+  display: inline-block;
   position: absolute;
-  left: -5px;
+  left: 140px;
 }
 #tasks ul li:hover img {
   display: inline-block;

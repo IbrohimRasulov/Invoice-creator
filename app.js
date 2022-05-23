@@ -2,6 +2,7 @@ const servicesBtn = document.querySelectorAll('#services button');
 const tasksList = document.querySelector('#tasks ul');
 const totalCost = document.querySelector('#total-cost');
 const notes = document.querySelector('#notes');
+const submitBtn = document.querySelector('#total button');
 
 const myServices = [];
 
@@ -96,3 +97,7 @@ const addEventToDeleteBtn = function () {
     });
   });
 }
+
+submitBtn.addEventListener('click', () => {
+  window.location.reload();
+});

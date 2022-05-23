@@ -126,9 +126,10 @@ main #services button:hover {
 }
 #tasks ul li img {
   cursor: pointer;
-  padding: 5px;
-  margin: 0 15px;
+  padding: 10px;
   display: none;
+  position: absolute;
+  left: -5px;
 }
 #tasks ul li:hover img {
   display: inline-block;

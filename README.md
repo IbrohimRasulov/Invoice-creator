@@ -4,7 +4,7 @@
 
 > Description the project.
 
-![App preview](./assets/app_screenshot.png)
+https://user-images.githubusercontent.com/78875455/170093087-ac8de2a2-a4c8-427a-9ead-e39585e08144.mp4
 
 ## Built With
 

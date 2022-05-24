@@ -17,33 +17,15 @@
      </header>
      <main>
        <div id="services">
-         <button id="washing">Wash Car: $10</button>
-         <button id="lawning">Mow Lawn: $20</button>
-         <button id="pulling">Pull Weeds: $30</button>
+         <button value="Wash Car">Wash Car: $10</button>
+         <button value="Mow Lawn">Mow Lawn: $20</button>
+         <button value="Pull Weeds">Pull Weeds: $30</button>
        </div>
        <div id="tasks">
          <ul>
            <li>
              <h4>TASK</h4>
              <h4>TOTAL</h4>
-           </li>
-
-           <li>
-             <p>Wash Car</p>
-             <img src="assets/icon-delete.svg" alt="delete-btn">
-             <p><span>$</span>10</p>
-           </li>
-
-           <li>
-             <p>Mow Lawn</p>
-             <img src="assets/icon-delete.svg" alt="delete-btn">
-             <p><span>$</span>20</p>
-           </li>
-
-           <li>
-             <p>Pull Weeds</p>
-             <img src="assets/icon-delete.svg" alt="delete-btn" class="hidden">
-             <p><span>$</span>30</p>
            </li>
          </ul>
        </div>
@@ -56,8 +38,8 @@
            </li>
 
            <li>
-             <p>We accept cash, credit card, or PayPal</p>
-             <p>$60</p>
+             <p id="notes"></p>
+             <p>$<span id="total-cost">0</span></p>
            </li>
          </ul>
 
@@ -65,6 +47,8 @@
        </div>
      </main>
    </div>
+
+   <script src="app.js"></script>
  </body>
 
  </html>

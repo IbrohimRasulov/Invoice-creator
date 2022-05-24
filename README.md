@@ -2,19 +2,19 @@
 
 # Invoice Creator
 
-> Description the project.
+> Invoice Creator is a web app that allows you to sellect services from list and get their overall cost. If you are not sure that you need a chosen service, then you can delete before move on to payment proccess. This is a complete solo project, part of [Scrimba JavaScript course](https://scrimba.com/learn/learnjavascript) using this given [figma design](https://www.figma.com/file/roUn8DT7zHTI9tcL2JXNZG/Invoice-Generator?node-id=0%3A1).
 
 ![App preview](./assets/app_screenshot.png)
 
 ## Built With
 
-- HTML, CSS, JavaScript
-- Custom CSS
+- HTML, CSS
+- JavaScript
 - SASS
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://ibrohimrasulov.github.io/Invoice-creator/)
 
 ## Authors
 

@@ -85,7 +85,8 @@ const displayList = function () {
 }
 
 const addEventToDeleteBtn = function () {
-  document.querySelectorAll('img[alt="delete-btn"]').forEach(btn => {
+  const deleteBtn = document.querySelectorAll('img[alt="delete-btn"]');
+  deleteBtn.forEach(btn => {
     btn.addEventListener('click', (e) => {
       const clickedBtn = e.target.parentNode.firstElementChild.textContent;
 

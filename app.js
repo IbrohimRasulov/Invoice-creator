@@ -18,6 +18,7 @@ servicesBtn.forEach(service => {
 
     clearList();
     displayList();
+    updateLocalStorage();
     total();
   });
 });
@@ -93,6 +94,7 @@ const addEventToDeleteBtn = function () {
 
       clearList();
       displayList();
+      updateLocalStorage();
       total();
     });
   });
@@ -100,4 +102,22 @@ const addEventToDeleteBtn = function () {
 
 submitBtn.addEventListener('click', () => {
   window.location.reload();
+  localStorage.clear();
 });
+
+const updateLocalStorage = function () {
+  localStorage.setItem('My Services', JSON.stringify(myServices));
+}
+
+window.onload = function () {
+  if (localStorage.getItem('My Services') !== null) {
+    const newArr = JSON.parse(localStorage.getItem('My Services'));
+
+    for (let i = 0; i < newArr.length; i++) {
+      myServices.push(newArr[i]);
+    }
+
+    displayList();
+    total();
+  }
+}
